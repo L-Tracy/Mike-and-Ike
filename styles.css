@@ -1,0 +1,30 @@
+img{
+	margin: 0px auto 20px auto;
+	display: block;
+	height: 150px;
+}
+
+h1{
+	font-family: Georgia;
+}
+
+p{
+	text-align: left;
+	font-family: Georgia;
+	margin: 0px;
+}
+
+.column{
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.row:after{
+	display: table;
+	clear: both;
+}
+
+body{
+	background: linear-gradient(to bottom right, #3399ff 0%, #ff6666 79%);
+}
